@@ -1,7 +1,9 @@
-from .unstable_populations import upi
-from .unstable_populations import psi
-from .unstable_populations import KL
+"""
+unstable_populations
 
-__version__ = "0.2.1"
-__author__ = "Marcel R. Haas, Joris Huese, Lisette Sibbald"
-__credits__ = "Data Science Center, University of Amsterdam"
+A python package to calculate the Unstable Population Indicator
+"""
+
+__version__ = "0.1.0"
+__author__ = "Marcel R. Haas, Lisette Sibbald"
+__credits__ = "LUMC"
