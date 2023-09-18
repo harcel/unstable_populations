@@ -4,6 +4,13 @@ unstable_populations
 A python package to calculate the Unstable Population Indicator
 """
 
-__version__ = "0.1.0"
-__author__ = "Marcel R. Haas, Lisette Sibbald"
-__credits__ = "LUMC"
+from .unstable_populations import upi
+from .unstable_populations import psi
+from .unstable_populations import KL
+
+from pkg_resources import get_distribution, DistributionNotFound
+
+try:
+    __version__ = get_distribution(__name__).version
+except DistributionNotFound:
+    pass  # package is not installed

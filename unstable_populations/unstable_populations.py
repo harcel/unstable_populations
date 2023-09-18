@@ -22,8 +22,6 @@ Version 0.2.1, Aug 2022, Marcel Haas (datascience@marcelhaas.com)
 
 import numpy as np
 import pandas as pd
-import pytest
-import os
 
 ################################################
 
@@ -387,9 +385,3 @@ def _bin_data(aa, bb, bins=10, verbose=False):
         print("Bin values for population2:", bin_b)
 
     return bin_a, bin_b
-
-
-# For now:
-
-if __name__ == "__main__":
-    pytest.main()

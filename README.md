@@ -4,7 +4,7 @@ A package to calculate the **Unstable Population Indicator** (see below for defi
 ## Installation instructions
 Clone the repository, then
 ```bash
-pip install .
+pip install unstable-populations
 ```
 
 ## The Unstable Population Indicator
@@ -33,4 +33,4 @@ As a rule of thumb (but test for yourself!), values as low as 0.1 for UPI or PSI
 
 ## Misc
 Developed and written by Marcel Haas, Joris Huese and Lisette Sibbald at the Data Science Center of the University of Amsterdam.
-Hosted at https://github.com/harcel/population_stability/
+Hosted at https://github.com/harcel/unstable_populations/
